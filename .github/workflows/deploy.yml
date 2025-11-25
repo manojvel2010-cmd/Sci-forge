@@ -35,3 +35,7 @@ jobs:
 
       - name: Success!
         run: echo "Your SciForge APK is ready! Check the link in Actions tab"
+npm install
+git add package-lock.json
+git commit -m "fuel"
+git push
